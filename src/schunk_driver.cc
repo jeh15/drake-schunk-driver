@@ -21,7 +21,6 @@ using drake::lcmt_schunk_wsg_status;
 
 namespace {
 
-// TODO(jeh15): Make these command line args for multiple use.
 const char* kLcmStatusChannel = "SCHUNK_WSG_STATUS";
 const char* kLcmCommandChannel = "SCHUNK_WSG_COMMAND";
 
