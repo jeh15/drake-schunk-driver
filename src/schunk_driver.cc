@@ -110,7 +110,7 @@ int main(int argc, char** argv) {
 
   schunk_driver::SchunkLcmClient client;
   client.Initialize();
-  std::cout << kLcmCommandChannel << std::endl;
+  std::cout << FLAGS_lcm_command_channel << std::endl;
 
   while (true) {
     client.Task();
